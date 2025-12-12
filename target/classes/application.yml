@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: cameratool
+camera:
+  hiktwo: 0
+  hikthree: 0
+  hikfour: 0
+  flag1: 0
+  flag2: 0
+  flag3: 0
+  #1:windows,2:linux
+  system: 2
+hik:
+  #linux:hcnetsdk
+#  windows:E:\step-two-project\cr\cameratool\lib\windowslib\hk\HCNetSDK.dll
+  libpath: E:\code\dzxj\cameratool\lib\windowslib\hk\HCNetSDK.dll
+dh:
+  #linux:dhnetsdk
+  #windows:E:\step-two-project\cr\cameratool\lib\windowslib\dh\dhnetsdk.dll
+  libpath: dhnetsdk
+server:
+  port: 4799
